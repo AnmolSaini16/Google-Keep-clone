@@ -25,6 +25,9 @@ function CreateArea({  onAdd }) {
   }
 
   const submitButton = (e) => {
+    if(e.target.value.trim()===''){ 
+      return;
+    } 
     onAdd(note)
     setNote({
       title: '',
