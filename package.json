@@ -1,7 +1,7 @@
 {
   "name": "google-keep",
   "version": "0.1.0",
-  "homepage": "https://AnmolSaini16.github.io/Google-keep-clone",
+  "homepage": "https://AnmolSaini16.github.io/Google-Keep-clone",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",

@@ -50,7 +50,6 @@ function App() {
             onDelete={deleteNotes}
           />
       ))}
-      <Footer />
     </div>
   );
 }
