@@ -1,0 +1,83 @@
+form {
+    position: relative;
+    width: 600px;
+    margin: 32px auto 50px auto;
+    background: #202124;
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid #98989A;
+    box-shadow: 0 2px 5px black;
+}
+
+form input {
+    border: none;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 12px;
+    outline: none;
+    font-size: 1.1rem;
+    resize: none;
+    background-color: inherit;
+    color: #E2E2E3;
+}
+
+
+form textarea {
+    border: none;
+    width: 100%;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    background-color: inherit;
+    color: #E2E2E3;
+    overflow: hidden;
+}
+
+form input::-webkit-input-placeholder {
+    color: #98989A;
+}
+form textarea::-webkit-input-placeholder {
+    color: #98989A;
+}
+
+form .submit-button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    right: 18px;
+    bottom: -18px;
+    background-color: #FBBC04;
+    border: 1px solid #525355;
+    border-radius: 999px;
+}
+form .submit-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.submit-button .add-icon {
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+@media only screen and (max-width: 625px) {
+    form {
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    form {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    form {
+        width: 300px;
+    }
+}

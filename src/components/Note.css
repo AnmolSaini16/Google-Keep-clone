@@ -1,0 +1,72 @@
+.note {
+    background-color: #202124;
+    width: 240px;
+    border-radius: 7px;
+    border: 1px solid #98989A;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    margin-right: 0;
+    
+}
+
+.note:hover {
+    box-shadow: 0 2px 5px black;
+}
+
+.note h1 {
+    font-size: 1rem;
+    color: #E2E2E3;
+    margin-bottom: 8px;
+    padding: 2px;
+    font-family: sans-serif;
+    white-space:pre-wrap;
+    word-wrap: break-word;
+}
+
+.note p {
+    font-size: 1rem;
+    color: #E2E2E3;
+    margin-bottom: 10px;
+    white-space:pre-wrap;
+    word-wrap: break-word;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+
+.note button {
+    position: relative;
+    float: right;
+    background-color: #202124;
+    border: none;
+    cursor: pointer;
+}
+.note button:hover {
+    transform: scale(1.1);
+}
+
+button .delete-icon {
+    color: #E2E2E3;
+}
+
+@media only screen and (max-width: 500px) {
+    .note {
+        width: 175px;
+        margin: 10px 10px 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .note {
+        width: 165px;
+        margin: 10px 5px 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .note {
+        width: 150px;
+        margin: 10px 8px 10px 12px;
+    }
+}
